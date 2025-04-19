@@ -51,7 +51,10 @@ class _ConverterPageState extends State<ConverterPage> {
   @override
   Widget build(BuildContext context) {
     final border = OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black, width: 2),
+      borderSide: BorderSide(
+        color: const Color.fromARGB(255, 48, 37, 37),
+        width: 2,
+      ),
       borderRadius: BorderRadius.circular(40),
     );
     final textStyle = TextStyle(
